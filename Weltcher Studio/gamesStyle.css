@@ -1,0 +1,28 @@
+.games-list {
+    width: 100%;
+    height: fit-content;   
+}
+
+.container-game {
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-game > img {
+    width: 80%;
+}
+
+.container-game > .title-h1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    font-size: 24pt;
+    color: white;
+}
