@@ -21,14 +21,13 @@
 
 .sobre .message {
     width: 100%;
-    height: fit-content;
+    height: 80vh;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .sobre .message h1 {
-    font-size: 14pt;
+    font-size: 22pt;
     color: white;
     font-weight: 700;
     text-align: center;
