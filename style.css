@@ -143,8 +143,8 @@ body {
 }
 
 .circle {
-    width: 460px;
-    height: 460px;
+    width: 80vw;
+    height: 80vw;
     border-radius: 50%;
     background: radial-gradient(circle at center, #5CE1E6 0%, #0CC0DF 50%, #0097B2 60%, #0097b26e 100%);
     box-shadow: 0 0 720px 10px #0097B2;
@@ -220,13 +220,13 @@ body {
     margin-left: 12px;
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 840px) {
     .header .logo {
         margin-left: 5px;
     }
     
     .header .logo h1 {
-        font-size: 10pt;
+        font-size: 8pt;
     }
 
     .links {
@@ -258,7 +258,7 @@ body {
         width: 100%;
         font-size: 4vw;
         height: fit-content;
-        padding-top: 15px;
+        padding-top: 60px;
     }
 
     .right {

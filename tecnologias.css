@@ -34,7 +34,7 @@
     text-align: center;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 840px) {
     .tecnologias {
         height: fit-content;
         background-size: 35%;
@@ -46,6 +46,6 @@
     }
 
     .sobre .message h1 {
-        font-size: 10pt;
+        font-size: 14pt;
     }
 }

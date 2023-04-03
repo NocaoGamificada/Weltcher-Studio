@@ -26,3 +26,9 @@
     font-size: 24pt;
     color: white;
 }
+
+@media screen and (max-width: 840px) {
+    .container-game > .title-h1 {
+        font-size: 14pt;
+    }
+}
