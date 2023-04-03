@@ -21,15 +21,31 @@
 
 .sobre .message {
     width: 100%;
-    height: 70vh;
+    height: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .sobre .message h1 {
-    font-size: 28pt;
+    font-size: 14pt;
     color: white;
     font-weight: 700;
     text-align: center;
+}
+
+@media screen and (max-width: 720px) {
+    .tecnologias {
+        height: fit-content;
+        background-size: 35%;
+        background-position-y: 150px;
+    }
+
+    .sobre {
+        height: fit-content;
+    }
+
+    .sobre .message h1 {
+        font-size: 10pt;
+    }
 }
