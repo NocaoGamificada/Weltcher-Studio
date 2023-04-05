@@ -27,8 +27,23 @@
     color: white;
 }
 
+.container-game > .warning {
+    position: absolute;
+    bottom: 0;
+    width: 75%;
+    margin-bottom: 22px;
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 @media screen and (max-width: 840px) {
     .container-game > .title-h1 {
         font-size: 14pt;
+    }
+
+    .container-game > .warning {
+        font-size: 11pt;
+        margin-bottom: 2px;
     }
 }
