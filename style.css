@@ -206,7 +206,7 @@ body {
 .title h1::after {
     text-align: center;
     content: "";
-    width: 120%;
+    width: 22vw;
     height: 3px;
     background-color: white;
     transform: translateY(50%);
@@ -236,33 +236,30 @@ body {
     
     .header .logo h1 {
         font-size: 8pt;
+        width: 40px;
+    }
+
+    .header .links nav li ul {
+        margin: 0px 4px;
     }
 
     .links {
         margin-left: 10px;
         margin-right: 0px;
-        padding-right: 0px;
-    }
-
-    .links nav {
-        position: relative;
+        padding-right: 10px;
     }
 
     .li-links {
-        font-size: 6vw;
+        font-size: 3vw;
     }
 
     .redes {
         position: absolute;
         right: 0;
-        top: 8vh;
+        top: 12vh;
         display: flex;
         flex-direction: column;
         margin: 4px 0;
-    }
-
-    .site-parts {
-        font-size: 10pt;
     }
 
     .apresentation {
