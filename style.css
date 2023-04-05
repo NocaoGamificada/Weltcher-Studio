@@ -66,7 +66,7 @@ body {
 }
 
 .redes {
-    margin-right: 25px;
+    margin-right: 15px;
 }
 
 .li-links {
@@ -81,8 +81,9 @@ body {
 }
 
 .redes ul {
-    margin: 3.5px;
+    margin: 0 1px;
 }
+
 .redes ul a {
     display: flex;
     justify-content: center;
@@ -94,7 +95,6 @@ body {
 }
 
 .header .links nav li ul {
-    margin: 0 10px;
     cursor: pointer;
 }
 
@@ -218,6 +218,10 @@ body {
 
 .title h1::after {
     margin-left: 12px;
+}
+
+.site-parts ul {
+    margin: 0 10px;
 }
 
 @media only screen and (max-width: 840px) {
