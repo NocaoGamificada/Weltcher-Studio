@@ -50,9 +50,12 @@
         height: fit-content;
     }
 
+    .sobre .message {
+        padding: 0 5%;
+    }
     .sobre .message h1 {
         font-size: 4.4vw;
-        padding: 0px 15px;
+        padding: 0px 0px;
     }
     .sobre .message br {
         display: none;
