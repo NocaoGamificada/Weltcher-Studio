@@ -22,10 +22,14 @@
     border-radius: 20px;
     padding: 15px;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.equipe-list > .card:first-child {
-    margin-right: 15%;
+.card-first {
+    margin-right: 25px;
 }
 
 .card-info {
@@ -35,7 +39,7 @@
     flex-direction: column;align-items: center;
     background: radial-gradient(circle at center, rgba(0, 255, 242, 0.719), rgba(0, 255, 242, 0.397), rgba(0, 255, 242, 0.233));
     border-radius: 15px;
-    font-size: 12pt;
+    font-size: calc(1vw + 1pt);
 }
 
 .equipe-list > .card > .card-info > img {
